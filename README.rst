@@ -1,5 +1,5 @@
 ======
-Djangooooooo000000oooo))))))))))
+Djangooooooo000000ooooooooooo))))))))))
 ======
 
 Django is a high-level Python web framework that encourages rapid development
