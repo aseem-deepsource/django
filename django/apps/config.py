@@ -17,12 +17,6 @@ class AppConfig:
         # Full Python path to the application e.g. 'django.contrib.admin'.
         self.name = app_name
 
-
-
-
-
-
-        
         # Root module for the application e.g. <module 'django.contrib.admin'
         # from 'django/contrib/admin/__init__.py'>.
         self.module = app_module
@@ -258,14 +252,8 @@ class AppConfig:
         Keyword arguments aren't documented; they're a private API.
         """
 
-
-
-
-        
         self.apps.check_models_ready()
 
-
-        
         for model in self.models.values():
             if model._meta.auto_created and not include_auto_created:
                 continue
